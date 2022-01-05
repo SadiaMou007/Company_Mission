@@ -1,0 +1,27 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+span {
+  color: rgb(255, 183, 110);
+}
+.flexible-container {
+  display: flex;
+  padding: 30px;
+}
+.person1 {
+  width: 50%;
+}
+.person1 img {
+  width: 480px;
+  height: 600px;
+  position: absolute;
+  top: -80px;
+}
+#left_border {
+  border-left: 5px solid rgb(255, 89, 89);
+  padding-left: 3px;
+}
+.intro_text {
+  padding: 25px;
+  width: 50%;
+}
