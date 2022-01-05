@@ -7,21 +7,33 @@ span {
 .flexible-container {
   display: flex;
   padding: 30px;
+  border: 1px solid red;
 }
 .person1 {
   width: 50%;
 }
 .person1 img {
   width: 480px;
-  height: 600px;
+  height: 550px;
   position: absolute;
-  top: -80px;
+  top: -60px;
 }
 #left_border {
   border-left: 5px solid rgb(255, 89, 89);
   padding-left: 3px;
+  font-size: 28px;
 }
 .intro_text {
   padding: 25px;
   width: 50%;
+}
+.link_btn {
+  background-color: rgb(255, 89, 89);
+  padding: 11px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.link_btn:hover {
+  border: 1px solid rgb(126, 117, 117);
 }
